@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="377.0" prefWidth="463.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="clientechat.FXMLDocumentController">
+  <children>
+    <TextArea fx:id="taChat" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="256.0" prefWidth="314.0" wrapText="true" />
+    <TextArea editable="false" layoutX="345.0" layoutY="14.0" prefHeight="175.0" prefWidth="104.0" text="Salas disponíveis:&#10;&#10;1 - Amizade&#10;2 - Bate-Papo&#10;3 - Paquera&#10;4 - Musica&#10;5 - Esportes &#10;" wrapText="true" />
+    <TextField fx:id="tfNick" layoutX="345.0" layoutY="220.0" prefWidth="104.0" />
+    <TextField fx:id="tfSala" layoutX="345.0" layoutY="270.0" prefWidth="104.0" />
+    <Label fx:id="lbNick" layoutX="345.0" layoutY="197.0" text="Insira seu nick:" />
+    <Label fx:id="lbSala" layoutX="345.0" layoutY="254.0" text="Insira o Nº da sala:" />
+    <Button fx:id="btEntrar" layoutX="365.0" layoutY="304.0" mnemonicParsing="false" onAction="#btEntrar" text="Entrar" />
+    <TextField id="tf" fx:id="tfMsg" layoutX="14.0" layoutY="293.0" prefHeight="32.0" prefWidth="314.0" visible="false" />
+    <Button fx:id="btEnviar" layoutX="143.0" layoutY="334.0" mnemonicParsing="false" onAction="#btEnviar" text="Enviar" visible="false" />
+    <Button fx:id="btSair" layoutX="371.0" layoutY="241.0" mnemonicParsing="false" onAction="#btSair" text="Sair" visible="false" />
+  </children>
+</AnchorPane>
