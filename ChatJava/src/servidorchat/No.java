@@ -1,8 +1,5 @@
 /* ***************************************************************
-* Autor: Wali Queiroz Santos
-* Matricula: 201411130
-* Inicio: 11/09/2016
-* Ultima alteracao: 11/09/2016
+* Autor: Wali Queiroz
 * Nome: No
 * Funcao: No de uma lista encadeada
 *************************************************************** */
